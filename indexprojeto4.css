@@ -1,0 +1,274 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    ;
+}
+
+header {
+    color: rgba(152, 157, 156, 1);
+    font-weight: 550;
+    left: 64px;
+    top: 27px;
+    font-size: 24px;
+    position: absolute;
+
+}
+
+.link {
+    color: rgba(152, 157, 156, 1);
+    font-weight: 550;
+    font-size: 24px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.link:hover {
+    opacity: 0.8;
+}
+
+img {
+    width: 568px;
+    height: 500px;
+    position: absolute;
+    left: 35px;
+    top: 161px;
+
+}
+
+h1 {
+    width: 513px;
+    left: 674px;
+    top: 180px;
+    color: rgba(81, 81, 81, 1);
+    height: 122px;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    position: absolute;
+}
+
+h1:hover {
+    opacity: 0.5;
+}
+
+h2:hover {
+    opacity: 0.4;
+}
+
+h2 {
+    width: 448px;
+    color: rgba(81, 81, 81, 1);
+    left: 710px;
+    top: 294px;
+    height: 71px;
+    font-weight: 500;
+    font-size: 57px;
+    line-height: 100%;
+    position: absolute;
+    letter-spacing: 0%;
+    display: inline-block;
+}
+
+p {
+    font-weight: 500;
+    left: 655px;
+    text-align: justify;
+    right: 76px;
+    top: 386px;
+    color: rgba(132, 132, 132, 1);
+    position: absolute;
+}
+
+.button {
+    width: 87px;
+    height: 29px;
+    background: #7160ef;
+    border-radius: 3vh;
+    border: none;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFF;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.button-2 {
+    width: 239px;
+    height: 64px;
+    background: rgba(173, 255, 0, 1);
+    border-radius: 5vh;
+    border: none;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 30px;
+    left: 655px;
+    top: 498px;
+    position: absolute;
+    text-align: center;
+    color: #040404;
+    cursor: pointer;
+
+
+}
+
+.button-2:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 910px) {
+    .button-2 {
+        width: 50vh;
+        height: 15vh;
+        left: 274px;
+
+
+    }
+
+    header {
+        left: 14px;
+    }
+
+    img {
+        width: 35vh;
+        height: 33vh;
+        top: 44vh;
+    }
+
+    h1 {
+
+        margin-right: 33px;
+        position: absolute;
+        left: 37px;
+        top: 90px;
+    }
+
+    h2 {
+        margin-right: 33px;
+        position: relative;
+        left: 37px;
+        top: 174px;
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 3vh;
+        width: 373px;
+        left: 38vh;
+        text-align: end;
+        right: 76px;
+        top: 267px;
+        color: rgba(132, 132, 132, 1);
+        position: absolute;
+    }
+
+}
+
+@media screen and (max-width: 668px) {
+
+    header {
+        width: 97vh;
+
+    }
+
+
+}
+
+@media screen and (max-width:400px) {
+
+    .button-2 {
+        left: 67px;
+        top: 87vh;
+        width: 271px;
+        height: 74px;
+    }
+
+    h1 {
+        font-size: 56px;
+
+
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 13px;
+        left: 12px;
+        text-align: center;
+    }
+
+    img {
+        top: 368px;
+        left: 80px;
+    }
+
+
+    header {
+        width: 96%;
+        left: 39px;
+        top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 431px) {
+
+    header {
+        width: 411px;
+        top: 12px;
+        left: 38px;
+    }
+
+    h1 {
+        position: absolute;
+        font-size: 66px;
+        left: 19px;
+    }
+
+    p {
+        width: 355px;
+        font-size: 22px;
+        left: 20px;
+        top: 195px;
+        text-align: center;
+
+
+    }
+
+    img {
+        width: 289px;
+        height: 264px;
+        top: 464px;
+        left: 48px;
+    }
+
+
+    h2 {
+        font-size: 44px;
+        position: absolute;
+        left: 21px;
+        top: 141px;
+
+    }
+
+    .button-2 {
+
+        width: 243px;
+        height: 50px;
+        left: 76px;
+        top: 764px;
+    }
+    .button-2:hover{
+        opacity: 0.8;
+    }
+}
